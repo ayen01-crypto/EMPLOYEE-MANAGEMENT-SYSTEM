@@ -195,16 +195,6 @@ This system meets all assignment requirements:
 ✅ **Database Connection Management** - Proper connection handling and cleanup  
 ✅ **HTML Forms** - Interactive forms for all CRUD operations  
 ✅ **CRUD Operations** - Complete Create, Read, Update, Delete functionality  
-
-## Marking Guide Alignment
-
-1. **Database Design & Creation (4 marks)** - Well-designed schema with proper relationships
-2. **Insert (Create) Functionality (2 marks)** - Full employee creation with validation
-3. **Retrieve (Read) Functionality (2 marks)** - Complete employee listing and viewing
-4. **Update Functionality (2 marks)** - Full employee editing capabilities
-5. **Delete Functionality (2 marks)** - Safe employee deletion with confirmation
-6. **Presentation (8 marks)** - Professional, responsive, and user-friendly interface
-
 ## Future Enhancements
 
 Potential improvements for the system:
@@ -220,3 +210,4 @@ Potential improvements for the system:
 ---
 
 **Note:** This system is designed for educational purposes and demonstrates best practices in PHP OOP development, database design, and web application security.
+
