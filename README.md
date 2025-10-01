@@ -1,3 +1,4 @@
+
 # Employee Management System
 
 **Developed by:** Ayen Geoffrey Alexander  
@@ -5,24 +6,14 @@
 
 ## Overview
 
-This is a comprehensive Employee Management System built with PHP OOP and MySQL. The system provides full CRUD (Create, Read, Update, Delete) functionality for managing employee records in an organization.
+This is a modular Employee Management System built with PHP and MySQL. Each file is concise (under 100 lines) and focused on a single responsibility for easy maintenance.
 
 ## Features
 
-### Core Functionality
-- ✅ **Create** - Add new employee records
-- ✅ **Read** - View all employees with search and filtering
-- ✅ **Update** - Edit existing employee information
-- ✅ **Delete** - Remove employee records
-- ✅ **Search** - Find employees by name or department
-
-### Technical Features
-- **PHP OOP with MySQLi** - Object-oriented programming approach
-- **Prepared Statements** - Secure database operations with SQL injection protection
-- **Error Handling** - Comprehensive error handling and user feedback
-- **Responsive Design** - Modern, mobile-friendly user interface
-- **Data Validation** - Client and server-side validation
-- **Database Connection Management** - Proper connection handling and cleanup
+- Add, edit, delete, and view employees
+- Simple, responsive UI
+- MySQL database connection
+- Secure CRUD operations
 
 ## System Requirements
 
@@ -40,12 +31,10 @@ This is a comprehensive Employee Management System built with PHP OOP and MySQL.
 4. The database will be created with the name `employee_management`
 
 ### 2. File Setup
-1. Copy all files to your web server directory:
-   - For XAMPP: `C:\xampp\htdocs\coursework one\`
-   - For WAMP: `C:\wamp64\www\coursework one\`
+1. Copy all files to your web server directory (e.g. `htdocs` for XAMPP)
 
 ### 3. Configuration
-1. Update database credentials in `handler.php` if needed (lines 12-15):
+1. Update database credentials in `handler.php` if needed:
    ```php
    private $host = 'localhost';
    private $db_name = 'employee_management';
@@ -55,17 +44,22 @@ This is a comprehensive Employee Management System built with PHP OOP and MySQL.
 
 ### 4. Access the Application
 1. Open your web browser
-2. Navigate to: `http://localhost/coursework%20one/interface.php`
+2. Navigate to: `http://localhost/index.php`
 3. The Employee Management System dashboard will load
 
 ## File Structure
 
 ```
-coursework one/
-├── interface.php             # HTML/CSS user interface
-├── handler.php              # PHP backend logic and database operations
-├── database_schema.sql      # Database creation script
-└── README.md               # This documentation file
+employee-management-system/
+├── index.php         # Main dashboard and employee list
+├── create.php        # Add new employee
+├── edit.php          # Edit employee
+├── delete.php        # Delete employee
+├── error.php         # Error messages
+├── handler.php       # PHP backend logic and database operations
+├── style.css         # Styles
+├── database_schema.sql # Database creation script
+└── README.md         # This documentation file
 ```
 
 ## Database Schema
@@ -189,12 +183,12 @@ The system provides clear error messages for:
 
 This system meets all assignment requirements:
 
-✅ **PHP with OOP-MySQLi** - Implemented using object-oriented PHP with MySQLi  
-✅ **Prepared Statements** - All database operations use prepared statements  
-✅ **Error Handling** - Comprehensive error handling throughout the application  
-✅ **Database Connection Management** - Proper connection handling and cleanup  
-✅ **HTML Forms** - Interactive forms for all CRUD operations  
-✅ **CRUD Operations** - Complete Create, Read, Update, Delete functionality  
+ **PHP with OOP-MySQLi** - Implemented using object-oriented PHP with MySQLi  
+ **Prepared Statements** - All database operations use prepared statements  
+ **Error Handling** - Comprehensive error handling throughout the application  
+ **Database Connection Management** - Proper connection handling and cleanup  
+ **HTML Forms** - Interactive forms for all CRUD operations  
+**CRUD Operations** - Complete Create, Read, Update, Delete functionality  
 ## Future Enhancements
 
 Potential improvements for the system:
